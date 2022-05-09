@@ -1,12 +1,12 @@
 ## *Requirements :*
 * Python 3.0 or above.
 * Download the code or clone it to your local repository.
-* (optionary) Assign your ipv4 address on both `TCP_Server.py` and `TCP_Client.py`
-* (optionary) Assign your preferred PORT number - default is 5050
+* (optionary) Assign your ipv4 address.
+* (optionary) Assign your preferred PORT number.
 
 ### Assigning IPV4 Address And PORT Number:
 By default, the server and the client are both set to `"localhost"` at port `5050`.       
-to use your own ipv4 address and port number, locate the `"SERVER"` and `PORT` variables on both files:  
+To use your own ipv4 address and port number, locate the `"SERVER"` and `PORT` variables on both `TCP_Server.py` and `TCP_Client.py`:
 ```python
 SERVER = "localhost"
 PORT = 5050
@@ -22,8 +22,8 @@ Here you can insert your own address
 ```
 
 ## Run On Mobile:
-This code can run be executed mobile using Pydroid3!    
+This code can get executed on mobile using Pydroid3!    
 You can run both the server side and client side on your mobile device, and connect between different devices!  
-to do so, copy the files to your mobile storage, and follow the instructions above.
+To do so, copy the files to your mobile storage, and follow the instructions above ( using Pydroid3 editor ).
 
 **If you wish to connect with multiple devices, make sure that all the devices are connected to the same network.**
