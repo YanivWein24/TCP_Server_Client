@@ -5,13 +5,18 @@
 * (optionary) Assign your preferred PORT number.
 
 ### Assigning IPV4 Address And PORT Number:
-By default, the server and the client are both set to `"localhost"` at port `5050`.       
+By default, the server and the client are both set to `"localhost"` at port `5050`.   
+
+To find Your own ipv4 adrress, open the command-line and type `ipcondig`.  
+Now under "Wireless LAN adapter || Wi-Fi:" you can find:  
+`IPv4 Address. . . . . . . . . . . : xxx.xxx.xxx.xxx`
+
 To use your own ipv4 address and port number, locate the `"SERVER"` and `PORT` variables on both `TCP_Server.py` and `TCP_Client.py`:
 ```python
 SERVER = "localhost"
 PORT = 5050
 ```
-Here you can insert your own address
+Here you can insert your own address and port number
 
 ```diff
 - SERVER = "localhost"
@@ -22,7 +27,7 @@ Here you can insert your own address
 ```
 
 ## Run On Mobile:
-This code can get executed on mobile using Pydroid3!    
+This code can also get executed on mobile using Pydroid3!    
 You can run both the server side and client side on your mobile device, and connect between different devices!  
 To do so, copy the files to your mobile storage, and follow the instructions above ( using Pydroid3 editor ).
 
